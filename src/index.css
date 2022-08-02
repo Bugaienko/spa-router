@@ -98,6 +98,16 @@ iframe {
   border: 1px blue solid;
   border-radius: 10px;
 }
+@media (min-width: 430px) {
+  .recipe-table {
+    width: 90%;
+  }
+}
+@media (min-width: 960px) {
+  .recipe-table {
+    width: 50%;
+  }
+}
 
 .category-title {
   padding: 7px;
@@ -137,4 +147,9 @@ iframe {
 }
 .contact {
   text-align: center;
+}
+@media only screen and (max-width: 601px) {
+  .hide-on-med-and-down {
+    display: block !important;
+  }
 }
