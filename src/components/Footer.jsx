@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom";
 
 function Footer() {
 	return (
@@ -7,7 +6,7 @@ function Footer() {
 			<div className="footer-copyright">
 				<div className="container">
 					© {new Date().getFullYear()} Sergii Bugaienko
-					<a className="right" href="https://github.com/Bugaienko/react-frontend-shop" target="_blank" rel="noreferrer">Repo</a>
+					<a className="right" href="https://github.com/Bugaienko/spa-router" target="_blank" rel="noreferrer">Repo</a>
 				</div>
 			</div>
 		</footer>
