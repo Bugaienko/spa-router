@@ -96,3 +96,13 @@ color: lime!important;
     .burger-menu {
         top: 56px;}
 }
+@media (min-device-width: 320px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)  {
+    .menu__content {
+        width: 75%;
+    }
+    .blur {
+        backdrop-filter: none;
+        width: 25%;
+        left: 75%;
+    }
+}
