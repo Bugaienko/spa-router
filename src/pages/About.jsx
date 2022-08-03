@@ -2,8 +2,8 @@ function About() {
 	return (
 		<>
 
-			<div className = "row">
-				<div className = "col s4">
+			<div className = "row offset80">
+				<div className = "col s5">
 				<div className='about-left'>
 					<p>
 						This project was created for a portfolio and is not intended for commercial use.
@@ -16,7 +16,7 @@ function About() {
 					</p>
 				</div>
 				</div>
-				<div className = "col s8">
+				<div className = "col s7">
 					<div className = 'about-skills'>
 						<div className = 'skill'>
 							<div className = 'about-img'>

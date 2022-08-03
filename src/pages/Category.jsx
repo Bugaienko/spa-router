@@ -37,6 +37,7 @@ function Category() {
 	}, [name])
 
 	return <>
+		<div className="row offset80">
 		<div className="navigate-bottoms">
 		<button className='btn btn-back' onClick={goBack}>Back</button>
 		<Link to="/" className = "btn ">Home</Link>
@@ -44,7 +45,7 @@ function Category() {
 		<div className='category-title'>
 		<strong>{name}: </strong><span>{about}</span>
 		</div>
-
+		</div>
 		{!meals.length ? <Preloader /> : <MealList meals={meals} />}
 	</>
 }

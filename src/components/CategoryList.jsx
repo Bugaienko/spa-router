@@ -5,7 +5,7 @@ import {NavMenu} from "./NavMenu";
 function CategoryList({catalog = []}) {
 
     return (
-        <div className='row'>
+        <div className='row offset80'>
             <div className = "col s10">
 
             {

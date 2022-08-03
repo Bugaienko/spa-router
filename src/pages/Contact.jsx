@@ -1,6 +1,6 @@
 function Contact() {
 	return <>
-		<div className = "row">
+		<div className = "row offset80">
 			<div className = "content-content">
 				<div className = "card contact light-blue  darken-3">
 					<div className = "card-content white-text">

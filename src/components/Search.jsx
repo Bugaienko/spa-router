@@ -22,7 +22,7 @@ function Search({cb = Function.prototype}) {
 
 	}
 
-	return <div className="row">
+	return <div className="row offset80">
 		<div className='input-field col s12'>
 			<input
 				type='search'
